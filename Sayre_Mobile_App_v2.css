@@ -6,17 +6,35 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+table {
+
+width: 100%;
+
+
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
 .footer {
 
-    height:24px; // Replace with the height your footer should be
-    width: 100%; // Don't change
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    position: fixed;
-    bottom: 0pt;
-    left: 0pt;
+  
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+
 
 }   
 
@@ -35,7 +53,7 @@ nav .brand-logo {
 }
 
 nav {
-    height: 40px;
+    height: 50px;
     line-height: 40px;
 }
 
@@ -68,21 +86,7 @@ p {
   color: #26a69a;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
   #index-banner .section {
     top: 10%;
   }
@@ -103,4 +107,26 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.footer {
+
+    height:24px; // Replace with the height your footer should be
+    width: 100%; // Don't change
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+
+}   
+
+.footer_contents {
+
+    height:24px; // Replace with the height your footer should be
+    width: 1000px; // Visible width of footer
+    margin:auto;
+
 }

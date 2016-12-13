@@ -9236,12 +9236,12 @@ nav .input-field label.active
 {
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i
     {
-        height: 64px;
-        line-height: 64px;
+        height: 70px;
+        line-height: 70px;
     }
     .navbar-fixed
     {
-        height: 64px;
+        height: 70px;
     }
 }
 
