@@ -1,151 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-        <title>Sayre Language Academy</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Sayre Language Academy</title>
+ <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
-        <!-- CSS  -->
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white">
+      <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+      <img src="Sayre_logo.png" height=60>
+      <a id="logo-container" href="#" class="brand-logo">&nbsp &nbsp Sayre Language Academy</a>
+  </nav>
 
-        <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-        <link href="Sayre_Mobile_App_v2.css" type="text/css" rel="stylesheet" media="screen,projection" />
-        <script src="Sayre_parser.js"></script>
-    </head>
+ <nav class="green lighten-2" role="navigation">
 
-    <body>
-    <div class="navbar-fixed" height ="70px">
-        <nav> 
-            <div class="nav-wrapper white center"> 
-              
-                <img src="SayreTitle.png" class="" height="50"/>
+<div class="nav-wrapper container">
+      
+      
+      <ul class="right hide-on-med-and-down" >
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="white-text">News & Announcements</a></li>
+        <li><a href="#" class="white-text">Teachers & Staff</a></li>
+        <li><a href="#" class="white-text">Activities & Clubs</a></li>
+      </ul>
 
-                    <a href="#" data-activates="mobile-demo" class="button-collapse">
-                        <img src=hamburger.png>
-                    </a>
-
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="http://www.sayre.cps.edu/apps/departments/clubs.jsp">Clubs and Activities</a></li>
-                    <li><a href="http://www.sayre.cps.edu/apps/staff/">Teachers/Staff</a></li>
-                    <li><a href="http://www.sayre.cps.edu/apps/departments/clubs.jsp">About Us</a></li>
-                </ul>
-
-            </div>             
-        </nav>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-                    <div id="above_table">
-                        <table class="center"> 
 
-                            <tbody> 
+ </nav>
 
-                                <tr> 
-                                    <th>
-                                        <a href="tel:(773) 534-3351" target="_top">
-                                            <img src="Phone_circle.png" height="70">
-                                        </a>
-                                    </th>  
-                                    
-                                    <th>
-                                        <a href="mailto:sayre@cps.edu" target="_top">
-                                            <img src="Email_circle.png" height="70">
-                                        </a>
-                                    </th>   
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
 
-                                    <th>
-                                        <a href="http://www.cps.edu/SiteCollectionDocuments/2016-2017_CPS_CalendarElementaryandHighSchools_English_12.09.15.pdf">
-                                            <img src="Calendar_circle.png" height="70">
-                                        </a>
-                                    </th> 
-                           
-
-                                </tr>       
-                            </tbody>
-                            </table>
-
-                            <table class="center"> 
-                           
-                           
-
-                                <tr> 
-                                    
-                                     <th>
-                                        <a href="https://www.facebook.com/pages/Sayre-Language-Academy/122245454460113">
-                                            <img src="Facebook_circle.png" width="70">
-                                        </a>
-                                    </th> 
-
- 
-                                    <th>
-                                        <a href="https://www.m.instagram.com/sayrelanguageacademy">
-                                            <img src="Instagram_circle.png" height="70">
-                                        </a>
-                                    </th>  
-                                    
-                                    <th>
-                                        <a href="" target="_top">
-                                            <img src="Videos_circle.png" height="70">
-                                        </a>
-                                    </th>  
-
-                                </tr> 
-
-                        </table>
-
-                    </div>
-    
-
-<!-- This is the parser that will get the data from Sayre's website then store them as "data1", "data2","data3"...-->
-
-
-<!-- Section of "Announcement" Cards (materialize css element); the data for these cards is provided by the parser "Sayre_parser.js". The parser is scraping the data from sayre.cps.edu.-->
-
-    <div class="row">
-        <div class="col s12 m12 l12">
-          <div class="card orange darken-1">
+     <div class="row"> 
+      <div class="col s12 m6 l6">
+        <div class="card green lighten-2">
             <div class="card-content white-text">
-              <span class="card-title">Announcement</span>
-              <p id="data1"></p>
-            </div>
-            <div class="card-action orange">
-              <a href="#" class="white-text">More---></a>
-            </div>
+              <span class="card-title">A Message from the Principal</span>
+          <p>Dear Sayre Community <br>
+I am humbled, honored and delighted to join the Sayre Language Academy family! I am committed, in collaboration with educators and families in this community, to move Sayre forward! <br>
+
+We Are…Sayre Strong!<br>
+Folasade Adekunle<br>
+fuadekunle@cps.edu</p>
+        </div>
+</div>
+</div>
+</div>
+          <div class="row right">
+          <h5 class="header col s12 light">Lorem Ipsum</h5>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      
+      <div class="row"> 
+
+        <div class="col s12 m4 l4">
+              <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BOyTj1nBYsj/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Sayre Language Academy (@sayrelanguageacademy)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-01-03T02:48:42+00:00">Jan 2, 2017 at 6:48pm PST</time></p></div></blockquote>
+              <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+        </div>
+
+        <div class="col s12 m8 l8">
+          <img src="https://lh3.googleusercontent.com/pHIklHdqS6sPOS93Cw07qv884o6NzceK-9LuG66n0nxqh2zxVLOUrDWqYWgZ5kLkeNx9=h900" width=100%>
           </div>
+
+          <!--
+          <style>
+              #wrap { width: 70%; height: 370px; padding: 0; position:relative; left:0px; top:0px; overflow: hidden; }
+              #frame { width: 70%; height: 370px; position:relative; left:-65px; top:0px; }
+              #frame { -ms-zoom: 0.7; -moz-transform: scale(0.7); -moz-transform-origin: 0px 0; -o-transform: scale(0.7); -o-transform-origin: 0 0; -webkit-transform: scale(0.7); -webkit-transform-origin: 0 0; }
+          </style>
+         <div class="col s12 m8 l8" id="wrap">
+            <iframe src="https://lh3.googleusercontent.com/pHIklHdqS6sPOS93Cw07qv884o6NzceK-9LuG66n0nxqh2zxVLOUrDWqYWgZ5kLkeNx9=h900" scrolling="no" style=" width: 100%; height: 370px;  overflow: hidden;" ></iframe>
+            </iframe>
+
+        </div>
+-->
+</div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Lorem Ipsum</h5>
         </div>
       </div>
+    </div>
+    <div class="parallax"><img src="" alt="Unsplashed background img 2"></div>
+  </div>
 
-    <div class="row">
-            <div class="col s12 m12 l12">
-              <div class="card blue darken-1">
-                <div class="card-content white-text">
-                  <span class="card-title">Announcement</span>
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action blue">
-                  <a href="#" class="white-text">More---></a>
-                </div>
-              </div>
-            </div>
-    </div>
-    
-    <div class="row">
-        <div class="col s12 m12 l12">
-          <div class="card red darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Announcement</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action red">
-              <a href="#" class="white-text">More---></a>
-            </div>
-          </div>
-        </div>
-    </div>
+  <div class="container">
+    <div class="section">
+
       
-        <!--  Scripts-->
-        <script src="jquery.min.js"></script>
-        <script src="materialize.js"></script>
-        <script src="parallax-template.js"></script>
-    </body>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer green lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 m3 s12">
+          <h5 class="white-text">Sayre Language Academy</h5>
+          <p class="grey-text text-lighten-4">The Pride of Galewood</p>
+
+
+        </div>
+        <div class="col l3 m3 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <ul>
+            <li><a class="white-text" href="#!">1850 N. Newland Ave.
+                  Chicago, IL 60707
+                  <br>
+                  Phone: (773) 534-3351
+                  Fax: (773) 534-3394 </a></li>
+            
+          </ul>
+        </div>
+        <div class="col l3 m3 s12">
+          <h5 class="white-text">Social</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+
+        <div class="col l3 m3 s12 left">
+          <img src="CPS_logo_white.png" height=144">
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="black-text "> Ops Dev </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
